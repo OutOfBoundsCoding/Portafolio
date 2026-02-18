@@ -21,10 +21,10 @@ export function Skills() {
           Expertise and Skills
         </h2>
         <div className="mx-auto mt-4 h-0.5 w-16 bg-primary" />
-        <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
+        {/* <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
           Lorem ipsum dura sit amet cimentum uga munga dani al igre dla
           gibberish.
-        </p>
+        </p> */}
 
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           {categories.map((cat) => (
