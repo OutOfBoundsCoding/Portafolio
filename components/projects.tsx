@@ -13,7 +13,7 @@ const projects: Project[] = [
     subtitle: "INEC - Panama",
     role: "Role - Full Stack Developer",
     description:
-      "Refactoring the backend around the legacy CMS and building a new frontend with Required technologies around mantainability and performance, a training for the team was also provided.",
+      "I led a strategic architectural overhaul of a legacy CMS environment, focusing on refactoring the backend to enhance system stability and long-term maintainability. This initiative involved developing a high-performance frontend using modern frameworks to meet strict technical requirements while ensuring seamless integration with existing data structures. Beyond the technical implementation, I facilitated specialized training for the development team to ensure a smooth transition to the new architecture and to establish high-standard coding practices for future scalability.",
     image: "/images/censos.png",
     stack: ["SQL server", "JavaScript", ".NET core", "C#", ".NET 4.5","Bootstrap", "HTML/CSS"],
   },
@@ -31,7 +31,7 @@ const projects: Project[] = [
     subtitle: "INEC - Panama",
     role: "Role - Tech Lead",
     description:
-      "Design and Development of a system to manage surveys during the Census of Panama 2020. The system included realtime data processing and validation, data collection from a mobile app and a web app for staff management and data analysis.",
+      "I led the design and development of a mission-critical data management ecosystem for the 2020 Census of Panama. This multi-platform solution featured a high-performance mobile application for field data collection and a robust web-based suite for staff management and strategic analysis. To ensure data integrity at a national scale, I engineered a backend capable of real-time data processing and validation, allowing for immediate synchronization between field agents and central administrators. This architecture transformed raw demographic data into actionable insights through integrated analysis tools, ensuring the census met rigorous accuracy and performance standards.",
     image: "/images/censosAPP.png",
     stack: ["C#", "SQL server", "HangFire", "JavaScript", ".NET Core", "CSPro", "Java", "Android", "ReactJS", "Google Charts", "PowerBI", "PowerShell", "PWA" ],
   },
@@ -40,7 +40,7 @@ const projects: Project[] = [
     subtitle: "Contraloria General de la republica de Panama",
     role: "Role - Tech Lead",
     description:
-      "Design and Develop a system to manage internal audits. The system required performance improvements from the previoous version, a new backend design focused on mantainability and multiplatform support and a new UI/UX re-design while keeping the known legacy technologies. A technical training was also provided to the team.", 
+      "I led the redesign and development of a mission-critical internal audit system, focusing on a complete backend overhaul to prioritize maintainability and multi-platform compatibility. While working within the constraints of established legacy technologies, I successfully implemented significant performance optimizations and a modern UI/UX refresh to streamline the auditing workflow. To ensure the long-term success of the migration, I also spearheaded technical training sessions for the development team, bridging the gap between the original infrastructure and the newly implemented architectural standards.", 
     image: "/images/SCAI.png",
     stack: ["C#", "SQL server", "JavaScript", ".NET 8", "ASP.NET WebForms", "Bootstrap", "HTML/CSS"],
   },
@@ -49,7 +49,7 @@ const projects: Project[] = [
     subtitle: "Control Risks",
     role: "Role - Tech Lead",
     description:
-      "Design, Develop and maintain a Platform for Risk Management Investigations that allowed to manage and analyze risk data from different sources and generate reports and dashboards.", 
+      "As the Tech Lead for this evolving Risk Management platform, I worked on a scalable solution designed to centralize and analyze complex data streams into actionable intelligence. To meet the demands of a rapidly growing dataset, I orchestrated a strategic migration from SQL to NoSQL and integrated Graph Databases to uncover deep relational patterns that traditional databases couldn't surface. By leveraging serverless functions and webhooks, I modernized the backend into a reactive, event-driven system, significantly automating the generation of reports and interactive dashboards.", 
     image: "/images/Vantage1.png",
     stack: ["C#", "TypeScript", "SQL server", "Cosmos DB", ".NET 8", "ReactJS", "Material UI", "HTML/CSS", "Azure Functions", "Azure", "PowerShell", "SOAP", "REST APIs"],
   }
