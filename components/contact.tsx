@@ -44,15 +44,17 @@ export function Contact() {
       {/* Email */}
       <div className="mt-8 flex flex-col items-center gap-2">
         <div className="flex items-center gap-2 text-muted-foreground">
-          <Mail size={16} />
           <span className="text-xs">@OutOfBoundsCoding</span>
         </div>
-        <a
+        <div className="flex items-center gap-2 text-muted-foreground">
+          <Mail size={16} />
+          <a
           href="mailto:eduardo.beckford93@gmail.com"
           className="text-xs text-primary transition-colors hover:text-primary/80"
         >
           eduardo.beckford93@gmail.com
         </a>
+        </div>
       </div>
     </section>
   )
