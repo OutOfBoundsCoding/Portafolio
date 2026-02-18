@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+import { Navbar } from '../../components/navbar'
+import { Hero } from '../../components/hero'
+import { Projects } from '../../components/projects'
+import { Skills } from '../../components/skills'
+import { About } from '../../components/about'
+import { Testimonials } from '../../components/testimonials'
+import { Contact } from '../../components/contact'
+import { Footer } from '../../components/footer'
+
+const title = 'Eduardo Beckford | IA Engineering & Software Architecture'
+const description =
+  'Panamanian systems engineer with native English proficiency. Dedicated IT systems professional with more than 5 years of experience.'
+---
+
+<BaseLayout title={title} description={description}>
+  <Navbar client:load />
+  <main>
+    <Hero />
+    <Projects />
+    <Skills />
+    <About />
+    <!-- <Testimonials /> -->
+    <Contact />
+  </main>
+  <Footer />
+</BaseLayout>
